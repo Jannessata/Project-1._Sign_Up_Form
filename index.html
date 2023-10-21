@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="pic-part">
+        <div class="images">
+            <div class="logo">
+                <img src="images/odin-lined.png" class="logo-pic">
+            </div>
+            <div class="logo-text">
+                <p>ODIN</p>
+            </div>
+        </div>
+        
+        <div class="text-down">
+            <p>Photo by <a href="https://unsplash.com/photos/25xggax4bSA">Haile West</a> on <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a></p>
+        </div>
+    </div>
+    
+      
+
+    <div class="group">
+        <p class="text-up">
+            This is not a real online service! You know you need something <br>like this in your life to help you realize your deepest dreams. <br>Sign up <em>now</em> to get started. <br><br> You <em>know</em> you want to.
+        </p>
+
+       
+        <div class="sign-up-form">
+            <h2>Let's do this!</h2>
+                <form class="form" action="/" method="GET" id="form">
+                    <div class="info">
+                        <div class="form-control">
+                            <label for="name">First Name</label>
+                            <input type="text" placeholder="Your name" id="username" class="username">
+                        </div>
+                        <div class="form-control">
+                            <label for="lastname">Last name</label>
+                            <input type="text" placeholder="Your last name" id="lastname" >                          
+                        </div>
+                    </div>
+            
+       
+                    <div class="info">
+                        <div class="form-control">
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="Your email" id="email" class="email">
+                        
+                        </div>
+                        <div class="form-control">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" placeholder="Your phone number" id="phone">
+                            
+                        </div>
+                    </div>
+
+
+                    <div class="info">
+                        <div class="form-control">
+                            <label for="password">Password</label>
+                            <input type="password" placeholder="********" id="password" class="password">
+                            <p id="message"></p>
+                        </div>
+                        <div class="form-control">
+                            <label for="password-2">Confirm Password</label>
+                            <input type="password" placeholder="********" id="password-2" class="password">
+                         
+                        </div>
+                    </div>
+                    <button class="create-account" type="submit">Create Account</button>
+                </form>
+        </div>
+
+       
+        
+        <div class="have-acc">
+            <p class="have-account">Already have an account?</p>
+            <p class="have-sign-in"><a href="#"></a>Log In</p>
+        </div>
+    </div>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>

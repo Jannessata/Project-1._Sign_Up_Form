@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --margin-right-info: 60px;
+    --success-border: 1px solid #3775FF;
+    --error-border: 1px solid #FF3737;
+    --logo-text-size: 70px;
+}
+
+.container {
+    background-image: url(/images/leaves-pic.jpg);
+    background-size: 535px 1024px;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+}
+
+.pic-part{
+   margin-top: 220px;
+   width: 535px;
+}
+
+.images{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 535px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5)
+    
+}
+
+.pic-part{
+    margin-left: 0;
+}
+
+.logo-text{
+    font-size: var(--logo-text-size);
+    color: #fff;
+    margin: 0;
+}
+
+.logo{
+    margin: 0;
+}
+
+
+.logo-pic{
+    width: 110px;
+    height: 160px;
+}
+
+.logo p{
+    color: white;
+}
+
+.text-down{
+    margin-top: 590px;
+    color: #fff;
+    text-align: center;
+}
+
+.text-down a{
+    color: #fff;
+}
+
+.group{
+    margin-left: 44px;
+    margin-top: 135px;
+    width: 710px;
+    padding: 10px;
+}
+
+.text-up{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.sign-up-form{
+    margin-top: 30px;
+}
+
+.info{
+    display: inline-flex;
+    padding: 0;
+}
+
+
+
+input{
+    padding: 5px;
+    width: 250px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.form-control {
+    position: relative;
+    margin-top: 35px;
+    width: 352px;
+}
+
+
+
+
+.form-control .password, .form-control .email, .form-control.password{
+    margin-right: var(--margin-right-info);
+}
+
+
+#email:focus, #phone:focus, #username:focus, #lastname:focus{
+    border: var(--success-border);
+    outline: none;
+    box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
+}
+
+
+#password:focus, #password-2:focus {
+    border: var(--error-border);
+    outline: none;
+    box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
+}
+
+
+
+.form-control label  {
+    position: absolute;
+    top: -20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .2em;
+}
+
+
+#password-2{
+    position: relative;
+    
+}
+
+
+.form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.create-account{
+    cursor: pointer;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    width: 230px;
+    padding: 10px 45px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    background: #596D48;
+    color: #fff;
+}
+
+.have-acc{
+    margin-top: 15px;
+    display: flex;
+    
+
+}
+
+.have-account{
+    margin: 0;
+}
+
+.create-account:hover{
+    background: #96b67b;
+    transition: .2s;
+}
+
+.have-sign-in{
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #596D48;
+}
+
+.have-sign-in:hover{
+    color: #96b67b;
+    transition: .2s;
+}
+
+.default.success input{
+    border: var(--success-border);
+}
+
+.form-control.error input{
+    border: var(--error-border);
+}
+
+.form-control p{
+    color: red;
+    font-size: 12px;
+    height: 10px;
+}
